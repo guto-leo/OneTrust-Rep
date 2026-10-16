@@ -8,44 +8,26 @@
 
     <style>
       html,
-      :root {
-          font-size: 12px !important;
-      }
-
       body {
           margin: 0;
-          padding: 24px;
+          padding: 0;
+          width: 100%;
+          min-height: 100vh;
+          overflow-x: auto;
+          overflow-y: auto;
           font-family: Arial, sans-serif;
       }
 
-      h1 {
-          font-size: 24px;
-          margin-bottom: 8px;
-      }
-
-      p {
-          font-size: 14px;
-          margin-bottom: 24px;
+      .container {
+          width: 100%;
+          padding: 24px;
+          box-sizing: border-box;
       }
 
       trust-center {
           display: block;
           width: 100%;
-          max-width: 100%;
-      }
-
-      @media (max-width: 767px) {
-          body {
-              padding: 16px;
-          }
-
-          h1 {
-              font-size: 20px;
-          }
-
-          p {
-              font-size: 13px;
-          }
+          min-height: 100vh;
       }
     </style>
 
